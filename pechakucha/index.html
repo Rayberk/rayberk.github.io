@@ -55,12 +55,13 @@ var list = [
         "https://i.ytimg.com/vi/naRVa7TXaXw/maxresdefault.jpg",
         "https://images.news18.com/ibnlive/uploads/2020/01/Turbojet.png",
         "https://i.pinimg.com/originals/e1/29/6c/e1296c2f0c688aecc2ebe7fdfb2c8a6e.jpg",
+        "https://lh3.googleusercontent.com/-mHacnGerEgE/VK2mWYiEhsI/AAAAAAAAGCs/OQ6R32Ochgo/s1400/060115_Turkish_THY7_IST-IAD_TC-JNP_A333.png",
+        "https://aviationhumor.net/wp-content/uploads/2017/04/Yakutsk-UEEE-Take-off-t-45C.jpg",
+
         "https://i.guim.co.uk/img/media/bb16d1d5a4fa29c7cf220396294688347660dbd0/0_104_3500_2101/master/3500.jpg?width=1200&quality=85&auto=format&fit=max&s=b95132109f0a9f671dd892eb1e18a076",
         "https://upload.wikimedia.org/wikipedia/commons/7/77/Boeing_747-8JK%2C_Boeing_AN1970519.jpg",
         "https://milesandmoore.files.wordpress.com/2016/05/maxresdefault.jpg",
-        "https://hips.hearstapps.com/clv.h-cdn.co/assets/17/04/1485541594-boiling-water-cold-air.jpg",
-        "https://lh3.googleusercontent.com/-mHacnGerEgE/VK2mWYiEhsI/AAAAAAAAGCs/OQ6R32Ochgo/s1400/060115_Turkish_THY7_IST-IAD_TC-JNP_A333.png",
-        "https://aviationhumor.net/wp-content/uploads/2017/04/Yakutsk-UEEE-Take-off-t-45C.jpg"
+        "https://hips.hearstapps.com/clv.h-cdn.co/assets/17/04/1485541594-boiling-water-cold-air.jpg"
     ]
 
     var showText = function (target, message, index, interval) {
@@ -72,7 +73,7 @@ var list = [
     }
 
     $(function () {
-        showText(".intro h1", "Pecha Kucha Presentation", 0, 50);
+        showText(".intro h1", '"Chemtrail Conspiracy Theory" \n Pecha Kucha Presentation', 0, 50);
     });
     setTimeout(() => {
         $('.intro h1').html("");
@@ -81,19 +82,19 @@ var list = [
 
             showText(".intro h1", "By Remzi Ayberk Çimen", 0, 50);
         });
-    }, 3000);
+    }, 4000);
     setTimeout(() => {
         $('.intro h1').html("");
         $('.intro').hide();
 
         $('.img').show();
-        var i = 1;
+        var i = 0;
         setInterval(() => {
 
         $('.img').attr("src", list[i]);
             i++;
         }, 15000);
-    }, 5000);
+    }, 7000);
 </script>
 
 </html>
