@@ -1,2 +1,2 @@
 # rayberk.github.io
-My personel website
+My personal website
